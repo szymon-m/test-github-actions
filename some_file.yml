@@ -1,7 +1,7 @@
 api: v1
 kind: Deployment
 metadata:
-  name: simple_deployment
+  name: simple_deployment_v2
   labels:
     app: develop
 spec:
