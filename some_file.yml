@@ -1,0 +1,10 @@
+api: v1
+kind: Deployment
+metadata:
+  name: simple_deployment
+  labels:
+    app: develop
+spec:
+  containers:
+  - name: application_engine
+    image: nginx
