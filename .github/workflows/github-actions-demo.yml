@@ -16,3 +16,7 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
+      - name: Some new action
+        uses: juliansangillo/tag-version@v1.5
+        with:
+            dev-branch: develop
